@@ -1,0 +1,42 @@
+{
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"rules": {
+		"camelcase": 0,
+		"consistent-return": 0,
+		"curly": [2, "multi-line"],
+		"key-spacing": 0,
+		"new-cap": 0,
+		"no-alert": 0,
+		"no-caller": 0,
+		"no-mixed-requires": 0,
+		"no-path-concat": 0,
+		"no-process-exit": 0,
+		"no-proto": 0,
+		"no-shadow": 0,
+		"no-mixed-spaces-and-tabs": 0,
+		"no-trailing-spaces": 0,
+		"no-multi-spaces": 1,
+		"no-underscore-dangle": 0,
+		"no-use-before-define": 0,
+		"no-irregular-whitespace": 1,
+		"object-curly-spacing": [1, "always"],
+		"quotes": [2, "single", "avoid-escape"],
+		"semi": [2, "always"],
+		"space-infix-ops": 0,
+		"strict": 0,
+		"yoda": 0
+	},
+	"ecmaFeatures": {
+		"templateStrings": 1,
+		"arrowFunctions": 1
+	},
+	"globals": {
+		"$": true,
+		"_": true,
+		"it": true,
+		"jQuery": true
+	}
+}
