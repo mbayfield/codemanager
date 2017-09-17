@@ -11,19 +11,23 @@ For when you need to run some common processes against all you NodeJS projects.
 * [The Node Security (nodesecurity.io) command line interface](https://www.npmjs.com/package/nsp): *npm install -g nsp*
 * [jsawk](http://brewformulas.org/Jsawk): *brew install jsawk*
 * [eslint](https://www.npmjs.com/package/eslint): *npm install -g eslint*
-
+* [dependency-check](https://www.npmjs.com/package/dependency-check): *npm install dependency-check -g*
 
 Toolbox (code-manager.sh) includes : 
 
-1.  Check all/update dependencies 
-2.  Update dependencies
-3.  Commit package changes
-4.  Git fetch & pull all
-5.  Run eslint
-6.  Run nsp
-7.  Git remote
-8.  Run tests
-9.  Run coverage
-10.  Git status
-11.  Clean node_modules folder
-12.  List global npm packages
+1. check all/update dependencies
+2. dependency checker
+3. commit package changes
+4. git fetch & pull all
+5. run eslint
+6. run nsp
+7. git remote check
+8. run unit tests
+9. run code coverage
+10. git status check
+11. clean node_modules folder
+12. list global npm packages
+13. Bump version
+14. run eslint fix
+15. Push changes - create pull requests
+16. npm rebuild
